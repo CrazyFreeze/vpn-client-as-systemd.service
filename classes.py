@@ -213,7 +213,7 @@ class Config:
         section = ["VPN", "servername", "username", "one-time-password", "password"]
         with open(self.filename, "w") as conf:
             parser.add_section(section[0])
-            self._set(parser, section[0], section[1], self._obfusc(self.__check("Input Address: ")))
+            self._set(parser, section[0], section[1], self._obfusc(self.__check("Input Server Address: ")))
             self._set(parser, section[0], section[2], self._obfusc(self.__check("Input Username: ")))
             self._set(parser, section[0], section[3], self._obfusc(self.__inputpass("One-time-password: ")))
             self._set(parser, section[0], section[4], self._obfusc(self.__inputpass("Password of certificate: ")))
