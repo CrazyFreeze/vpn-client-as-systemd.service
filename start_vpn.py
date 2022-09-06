@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import classes
 import signal
 import time
