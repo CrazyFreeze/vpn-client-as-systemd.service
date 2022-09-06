@@ -4,4 +4,4 @@ import start_vpn
 
 
 if __name__ == "__main__":
-    classes.Config(starter.configfile).write_config()
+    classes.Config(start_vpn.configfile).write_config()
