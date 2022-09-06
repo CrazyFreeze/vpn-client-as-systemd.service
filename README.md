@@ -20,5 +20,5 @@ $> sudo -i
 #> cp vpn-service.service /etc/systemd/system/
 #> systemctl daemon-reload
 #> systemctl start vpn-service.service
-#> systemctl status vpn-service.service***
+#> systemctl status vpn-service.service
 ```
