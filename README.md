@@ -5,7 +5,7 @@ At the moment it works as follows:
 
 You must have Docker installed!
 
-
+<sub>
 $> sudo -i
 #> apt install openconnect python3-venv
 #> cd /opt/vpn-service
@@ -17,3 +17,4 @@ $> sudo -i
 #> systemctl daemon-reload
 #> systemctl start vpn-service.service
 #> systemctl status vpn-service.service
+</sub>
