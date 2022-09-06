@@ -5,6 +5,7 @@ After=docker.service
 
 [Service]
 Type=simple
+WorkingDirectory=/opt/vpn-client
 ExecStart=/opt/vpn-service/env/bin/python3 start_vpn.py
 ExecStop=/opt/vpn-service/env/bin/python3 stop.py
 TimeoutSec=300
