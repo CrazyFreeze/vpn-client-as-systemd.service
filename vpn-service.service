@@ -1,0 +1,15 @@
+[Unit]
+Description=VPN_Client_by_Openconnect
+After=network.target
+After=docker.service
+
+[Service]
+Type=simple
+ExecStart=/opt/vpn-service/env/bin/python3 starter.py
+ExecStop=/opt/vpn-service/env/bin/python3 stop.py
+TimeoutSec=300
+
+
+
+[Install]
+WantedBy=multi-user.target
