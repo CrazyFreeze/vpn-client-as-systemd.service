@@ -5,7 +5,7 @@ At the moment it works as follows:
 
 You must have Docker installed!
 
->***$> sudo -i
+>***$> sudo -i \n
 >#> apt install openconnect python3-venv
 >#> cd /opt/vpn-service
 >#> python3 -m venv env
