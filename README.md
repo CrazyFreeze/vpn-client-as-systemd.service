@@ -4,8 +4,8 @@ Add-on for VPN client openconnect (for Docker + Cisco Anyconnect)
 At the moment it works as follows:
 
 You must have Docker installed!
-
->***$> sudo -i \n
+```
+>***$> sudo -i 
 >#> apt install openconnect python3-venv
 >#> cd /opt/vpn-service
 >#> python3 -m venv env
@@ -16,3 +16,4 @@ You must have Docker installed!
 >#> systemctl daemon-reload
 >#> systemctl start vpn-service.service
 >#> systemctl status vpn-service.service***
+```
