@@ -8,6 +8,10 @@ You must have Docker installed!
 $> sudo -i 
 #> apt install openconnect python3-venv
 #> mkdir -p /opt/vpn-service/
+#> cp ./start_vpn.py /opt/vpn-service/
+#> cp ./classes.py /opt/vpn-service/
+#> cp ./stop.py /opt/vpn-service/
+#> cp ./configure.py /opt/vpn-service/
 #> mkdir -p /opt/vpn-service/certs
 #> mkdir -p /opt/vpn-service/client
 #> cp ~/SomethingYourCertName.p12 /opt/vpn-service/certs/certificate.p12
