@@ -14,7 +14,7 @@ $> sudo -i
 #> cp ./configure.py /opt/vpn-service/
 #> mkdir -p /opt/vpn-service/certs
 #> mkdir -p /opt/vpn-service/client
-#> cp ~/SomethingYourCertName.p12 /opt/vpn-service/certs/certificate.p12
+#> cp YOUR_PATH/{SomethingYourCertName}.p12 /opt/vpn-service/certs/certificate.p12
 #> cp /usr/sbin/openconnect /opt/vpn-service/client/client_by_openconnect
 #> cd /opt/vpn-service
 #> python3 -m venv env
